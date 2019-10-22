@@ -12,7 +12,7 @@ import UserListItem from '../../components/list/UserListItem';
 
 class HomeScreen extends Component {
     
-    UNSAFE_componentWillMount () {
+    componentWillMount () {
         this.props.requestUsers();
     }
 
@@ -30,7 +30,8 @@ class HomeScreen extends Component {
 }
 
 const mapStateToProps = state => ({
-    users: state.UserReducer.users
+    users: state.UserReducer.users,
+    user: state.LoginReducer.user
 });
 
 export default connect(mapStateToProps, { requestUsers })(HomeScreen);

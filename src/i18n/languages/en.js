@@ -1,4 +1,23 @@
 export default {
     app_name: "App Demo",
-    home_title: "Home"
+    home_title: "Home",
+    login: "Login",
+    login_subtitle: "Log in to access the app.",
+    register: "Register",
+    register_subtitle: "Welcome to the Demo App!",
+    name: "Name",
+    email: "E-mail",
+    password: "Password",
+    confirm_password: "Confirm password",
+    ok: "OK",
+    success_title: "Success!",
+    success_register: "You have been registered.",
+    error_title: "Attention!",
+    error_empty_name: "* The name field must be filled.",
+    error_empty_email: "* The email field must be filled.",
+    error_empty_password: "* The password field must be filled.",
+    error_empty_confirm_password: "* The confirm password field must be filled.",
+    error_invalid_email: "* Please enter a valid email.",
+    error_invalid_confirm_password: "* Please check password confirmation.",
+    error_server: "Something went wrong, try again later."
 }
